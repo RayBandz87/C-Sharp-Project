@@ -1,0 +1,28 @@
+A. Positive Test Cases
+
+Verify that the application opens without any errors.
+
+Verify that the input fields are accepting positive numeric values.
+
+Verify that the Calculate button works correctly by displaying the correct output values for one order.
+
+Verify that the Clear button works correctly by resetting all fields to their default values.
+
+Verify that the application can calculate the accumulation of all orders and display it correctly.
+
+Verify that the application can calculate the total number of orders and display it correctly.
+
+Verify that the application can calculate the truck capacity and display it correctly.
+
+Verify that the application can calculate the truck's remaining capacity and display it correctly.
+
+Verify that the background color of the label that displays the truck's remaining capacity changes according to the remaining capacity of the truck.
+
+B. Negative Test Cases
+
+Verify that the input fields only accept positive numeric values and display an error message if the user enters a negative value or a non-numeric value.
+
+Verify that the Calculate button does not work if the user has not entered values for all three input fields and displays an error message.
+
+Verify that the Clear button clears all fields and resets all accumulators and displays an error message if the user has not entered any orders yet.
+

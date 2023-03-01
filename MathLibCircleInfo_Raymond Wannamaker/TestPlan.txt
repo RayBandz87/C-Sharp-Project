@@ -1,0 +1,29 @@
+Input validation testing:
+a. Test with valid input for radius (e.g., 5.5)
+b. Test with invalid input for radius (e.g., "abc")
+c. Test with empty input for radius
+
+Calculation testing:
+a. Test the calculated diameter value using a known radius value and compare with the expected value
+b. Test the calculated circumference value using a known radius value and compare with the expected value
+c. Test the calculated area value using a known radius value and compare with the expected value
+
+User interface testing:
+a. Test if the user interface is responsive
+b. Test if the form displays the calculated values correctly in the respective text boxes
+c. Test if the error message is displayed when invalid input is provided for radius
+
+Performance testing:
+a. Test with a large input value for radius and check if the calculation completes in a reasonable time
+
+Compatibility testing:
+a. Test the code on different versions of .NET framework to ensure compatibility
+
+Security testing:
+a. Test if the input validation is working as expected to prevent any security vulnerabilities.
+
+Usability testing:
+a. Test the application with a sample user and observe how easily he is able to navigate through the form.
+
+Regression testing:
+a. Test the code after any changes have been made to ensure that it still works correctly.

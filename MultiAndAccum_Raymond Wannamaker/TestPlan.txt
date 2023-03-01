@@ -1,0 +1,33 @@
+Test Plan for MultiAndAccum Program:
+
+Test the program with valid input values and verify that it calculates the multiplication correctly and displays the running total:
+a. Enter "2" in the "Number 1" input field.
+b. Enter "3" in the "Number 2" input field.
+c. Click the "Calculate" button.
+d. Verify that the "Multiplication" label displays "6".
+e. Verify that the "Running Total" label displays "6".
+
+Test the program with invalid input values and verify that it displays an error message:
+a. Enter "A" in the "Number 1" input field.
+b. Enter "3" in the "Number 2" input field.
+c. Click the "Calculate" button.
+d. Verify that an error message dialog box appears with the message "Please enter numeric Value only.".
+e. Verify that the input fields and output labels have not changed.
+
+Test the program with negative input values and verify that it correctly sets the background color of the "Running Total" label:
+a. Enter "2" in the "Number 1" input field.
+b. Enter "-3" in the "Number 2" input field.
+c. Click the "Calculate" button.
+d. Verify that the "Multiplication" label displays "-6".
+e. Verify that the "Running Total" label displays "-6".
+f. Verify that the background color of the "Running Total" label is orange.
+
+Test the program by resetting the input fields and output labels and verify that it correctly resets the running total:
+a. Enter "2" in the "Number 1" input field.
+b. Enter "3" in the "Number 2" input field.
+c. Click the "Calculate" button.
+d. Verify that the "Multiplication" label displays "6".
+e. Verify that the "Running Total" label displays "6".
+f. Click the "Reset" button.
+g. Verify that the input fields and output labels have been cleared.
+h. Verify that the running total has been reset to 0.

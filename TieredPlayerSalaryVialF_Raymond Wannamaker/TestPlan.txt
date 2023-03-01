@@ -1,0 +1,37 @@
+Test for Valid Inputs:
+a. Enter a valid player name, number of hits within the range of 1 to 300, select the All Star and MVP checkboxes, and click on Calculate.
+b. Verify that the calculated salary and tier number are displayed correctly.
+c. Verify that the leading player's information is displayed correctly in the summary section.
+
+Test for Invalid Inputs:
+a. Enter an empty player name, number of hits outside the range of 1 to 300, and do not select any checkboxes, and click on Calculate.
+b. Verify that an error message is displayed.
+c. Verify that the calculated salary and tier number are not displayed.
+d. Verify that the leading player's information is not affected by this invalid input.
+
+Test for Clearing Data:
+a. Enter valid inputs and click on Calculate.
+b. Verify that the calculated salary and tier number are displayed correctly.
+c. Click on Clear.
+d. Verify that all data entry fields, checkboxes, and calculations are cleared.
+
+Test for Leading Player:
+a. Enter valid inputs for multiple players, each with different numbers of hits.
+b. Verify that the leading player's information is displayed correctly in the summary section.
+
+Test for All Star and MVP Awards:
+a. Enter valid inputs for a player who is neither an All Star nor an MVP.
+b. Verify that the calculated salary and tier number are displayed correctly, and there is no additional salary amount.
+c. Enter valid inputs for a player who is both an All Star and an MVP.
+d. Verify that the calculated salary and tier number are displayed correctly, and the additional salary amount is 25% of the calculated salary.
+e. Enter valid inputs for a player who is only an All Star OR an MVP.
+f. Verify that the calculated salary and tier number are displayed correctly, and the additional salary amount is 20% of the calculated salary.
+
+Test for Edge Cases:
+a. Enter a player name with the maximum number of characters allowed.
+b. Enter the minimum and maximum values of the range of hits.
+c. Verify that the calculated salary and tier number are displayed correctly in each case.
+
+Test for Performance:
+a. Enter a large number of player inputs and verify that the application can handle the load efficiently.
+b. Measure the time taken to calculate the salary for each player and ensure it's within reasonable limits.

@@ -1,0 +1,19 @@
+Test the input validation:
+a. Enter a negative weight value and verify that the appropriate error message is displayed.
+b. Enter a non-numeric weight value and verify that the appropriate error message is displayed.
+c. Leave the shipping zone field blank and verify that the appropriate error message is displayed.
+d. Enter an invalid shipping zone value and verify that the appropriate error message is displayed.
+
+Test the calculation of the shipping cost:
+a. Enter a valid weight and shipping zone value and verify that the total cost is correctly calculated.
+b. Enter a weight that results in a total cost over $100 and verify that the total cost is capped at $100 and the appropriate message is displayed.
+c. Enter a weight and shipping zone that result in a zero total cost and verify that the appropriate results are displayed.
+
+Test the display of results:
+a. Verify that the weight cost, zone cost, total cost, per pound cost, and capped message (if applicable) are all correctly displayed when a valid weight and shipping zone are entered.
+b. Verify that the weight cost, zone cost, total cost, per pound cost, and capped message (if applicable) are all correctly cleared when a new calculation is performed.
+
+Test the behavior of the application:
+a. Verify that the application starts up without errors.
+b. Verify that the application functions correctly after repeated calculations.
+c. Verify that the application does not crash or display unexpected behavior when invalid input is entered or errors occur.

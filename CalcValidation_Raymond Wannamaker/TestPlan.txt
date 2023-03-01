@@ -1,0 +1,27 @@
+These are some test procedures that the developed desktop C# Windows Forms App (.NET Framework) application might employ.
+
+1. Verify that the form includes a "Steps Walked" label, a TextBox control for the user to enter the number of steps, a "Calculate" button, and three Label controls for the "Distance Walked", "Time Spent", and "Calories Burned" labels.
+
+2. Enter a valid number of steps in the TextBox control, for example, 5000.
+
+3. Click the "Calculate" button.
+
+4. Verify that the calculated distance walked, time spent, and calories burned are displayed in the corresponding Label controls and are accurate based on the number of steps entered.
+
+5. Enter an invalid value in the TextBox control, for example, "abc".
+
+6. Click the "Calculate" button.
+
+7. Verify that an error message is displayed using a MessageBox, informing the user that they need to enter a valid number of steps.
+
+8. Close the error message.
+
+9. Enter a valid number of steps in the TextBox control, for example, 10000.
+
+10. Click the "Calculate" button.
+
+11. Verify that the calculated distance walked, time spent, and calories burned are displayed in the corresponding Label controls and are accurate based on the number of steps entered.
+
+12.Close the program.
+
+These test steps should help ensure that the program functions correctly, including validating user input and displaying error messages when necessary.
